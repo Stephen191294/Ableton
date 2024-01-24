@@ -1,0 +1,49 @@
+body{
+  margin: 0;
+  padding: 0;
+  
+}
+
+header{
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+.main-nav{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav-items-right{
+  display: flex;
+  align-items: center;
+}
+
+.nav-list-item{
+  margin-left: 15px;
+}
+
+.nav-list{
+  list-style: none;
+  display: flex;
+  font-size: 1.25rem;
+   
+}
+
+
+.nav-container{
+  display: flex;
+}
+
+.right-nav-item{
+  margin-left: 15px;
+  font-size: 1.25rem ;
+}
+
+#logo{
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin: auto;
+}
