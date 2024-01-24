@@ -4,9 +4,14 @@ body{
   
 }
 
+
+
 header{
-  margin-left: 20px;
-  margin-right: 20px;
+  margin-left: 25px;
+  margin-right: 35px;
+    line-height: 1.5;
+    font-family: 'Roboto', sans-serif;
+    
 }
 
 .main-nav{
@@ -24,6 +29,12 @@ header{
   margin-left: 15px;
 }
 
+.nav-list-item1{
+margin-left: 15px;
+color: #ff764d;
+
+}
+
 .nav-list{
   list-style: none;
   display: flex;
@@ -31,14 +42,43 @@ header{
    
 }
 
+.nav-seperator{
+  height: 0;
+  margin: 0;
+  padding: 0;
+  border-top: 2px solid #eee;
+  width: 100%;
+  
+}
 
 .nav-container{
   display: flex;
 }
 
-.right-nav-item{
+.right-nav-item1{
   margin-left: 15px;
   font-size: 1.25rem ;
+  color: #0000ff;
+}
+
+.right-nav-item2{
+  margin-left: 15px;
+  font-size: 1rem;
+}
+
+.secondary-nav ul{
+  display: flex;
+  list-style: none;
+  font-size: 1rem;
+  font-family: 'Roboto', sans-serif;
+}
+
+.second-nav-item1, .second-nav-item2{
+  margin-left: 15px;
+}
+
+.second-nav-item1{
+  color: #ff764d;
 }
 
 #logo{
