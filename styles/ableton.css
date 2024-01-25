@@ -4,8 +4,6 @@ body{
   
 }
 
-
-
 header{
   margin-left: 25px;
   margin-right: 35px;
@@ -23,7 +21,14 @@ header{
 .nav-items-right{
   display: flex;
   align-items: center;
+  cursor: pointer;
 }
+
+.nav-link{
+  text-decoration: none;
+  color:black;
+}
+
 
 .nav-list-item{
   margin-left: 15px;
@@ -35,10 +40,20 @@ color: #ff764d;
 
 }
 
+.nav-link-logo{
+  display: flex;
+}
+
+.nav-link1{
+  text-decoration: none;
+  color: #ff764d
+}
+
 .nav-list{
   list-style: none;
   display: flex;
   font-size: 1.25rem;
+  cursor: pointer;
    
 }
 
@@ -61,6 +76,16 @@ color: #ff764d;
   color: #0000ff;
 }
 
+.right-nav-link1{
+  text-decoration: none;
+  color: #0000ff;
+}
+
+.right-nav-link2{
+  text-decoration: none;
+  color: black;
+}
+
 .right-nav-item2{
   margin-left: 15px;
   font-size: 1rem;
@@ -71,6 +96,7 @@ color: #ff764d;
   list-style: none;
   font-size: 1rem;
   font-family: 'Roboto', sans-serif;
+  cursor: pointer;
 }
 
 .second-nav-item1, .second-nav-item2{
@@ -86,4 +112,18 @@ color: #ff764d;
   height: auto;
   display: block;
   margin: auto;
+  cursor: pointer;
+}
+
+@media screen and (max-width: 900px) {
+    
+   .main-nav{
+    padding: 20px;
+   }
+    .nav-list{
+      display: none;
+    }
+    .nav-items-right{
+      display: none;
+    }
 }
