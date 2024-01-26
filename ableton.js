@@ -1,4 +1,4 @@
-// Get the header element
+// get the secondary-nav
 var header = document.getElementById("secondary-nav");
 
 // Get the offset position of the header
@@ -15,3 +15,15 @@ function handleScroll() {
 
 // Add event listener to the window's scroll event
 window.addEventListener("scroll", handleScroll);
+
+document.getElementById('menu-toggle').addEventListener('click', function() {
+  document.getElementById('menu').classList.toggle('open');
+  document.getElementById('menu-toggle').classList.toggle('open');
+  document.getElementById('close-button').classList.toggle('open');
+});
+
+document.getElementById('close-button').addEventListener('click', function() {
+  document.getElementById('menu').classList.remove('open');
+  document.getElementById('menu-toggle').classList.remove('open');
+  document.getElementById('close-button').classList.remove('open');
+});

@@ -13,6 +13,15 @@ header{
     
 }
 
+
+.slide-nav-logo{
+  display: none;
+}
+
+.main-nav-button{
+  display: none;
+}
+
 .main-nav{
   display: flex;
   justify-content: space-between;
@@ -101,7 +110,6 @@ color: #ff764d;
   margin-bottom: 0;
   padding-top: 1.25rem;
   padding-bottom: 1.25rem;
-  border-bottom: 1px solid black;
   background-color: #fff;
   font-family: 'Roboto', sans-serif;
   cursor: pointer;
@@ -114,6 +122,13 @@ color: #ff764d;
   opacity: 0.9;
 }
 
+.sticky{
+  padding-top: 0;
+}
+
+.second-slide-nav-list{
+  display: none;
+}
 
 .second-nav-item1, .second-nav-item2{
   margin-left: 15px;
@@ -134,6 +149,47 @@ color: #ff764d;
   width: 100%;
 }
 
+.first-text-container{
+  margin-top: 10%;
+  margin-left: 20%;
+  margin-right: 20%;
+  display: block;
+}
+.first-text{
+  
+  display: block;
+  margin: 0;
+  
+  
+}
+
+h1{
+  font-size: 1.875rem;
+  line-height: 1.4;
+  font-family: 'Roboto', sans-serif;
+}
+
+.first-text p{
+  line-height: 1.4;
+  font-size: 1.25rem;
+  font-family: 'Roboto', sans-serif;
+}
+
+.first-text-link{
+  text-decoration: none;
+  color: #0000ff;
+}
+
+.menu ul {
+ display: none;
+}
+
+
+#close-button{
+  display: none;
+}
+
+
 #logo{
   max-width: 100%;
   height: auto;
@@ -144,8 +200,22 @@ color: #ff764d;
 
 @media screen and (max-width: 900px) {
     
+  h1{
+    font-size: 1.25rem;
+    line-height: 1.5;
+    font-family: 'Roboto', sans-serif;
+  }
+
+  .first-text p{
+    font-size: 1rem;
+    line-height: 1.5;
+    font-weight: normal;
+    font-family: 'Roboto', sans-serif;
+  }
+
+
    .main-nav{
-    padding: 20px;
+    margin: 20px;
    }
     .nav-list{
       display: none;
@@ -153,4 +223,93 @@ color: #ff764d;
     .nav-items-right{
       display: none;
     }
+
+    .sticky{
+      display: none;
+    }
+
+    .second-slide-nav-list{
+      display: block;
+    }
+    .first-text-container{
+      margin-left:75px ;
+      margin-right:75px ;
+    }
+
+    .first-text-line-break{
+      display: none ;
+    }
+
+    .main-nav-button{
+      display: inline-block;
+      padding: 5px;
+      font-size: 1.25rem;
+      border: none;
+      background-color: #fff;
+      cursor: pointer;
+      font-family: 'Roboto', sans-serif;
+    }
+
+    .logo-container{
+      margin: 20px;
+      margin-top: 25px;
+      margin-left: 35px;
+      display: flex;
+    }
+
+    .slide-nav-logo{
+      display: flex;
+    }
+
+    .nav-button-container{
+      display: flex;
+      display: inline-block ;
+      margin-left: 15px;
+      margin-top: 10px;
+    }
+
+    .logo-container{
+      display: flex;
+    }
+
+    .menu ul{
+      display: block;
+      color: #fff;
+      list-style: none;
+    }
+
+    .menu {
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 0;
+      background-color: blue;
+      overflow: hidden;
+      transition: height 0.3s ease;
+    }
+    
+    .menu.open {
+      height: 100vh;
+    }
+    
+    #close-button {
+      display: none; /* Initially hidden */
+      color: #fff;
+      border: none;
+      margin-left: 6px;
+      font-size: 1.25rem;
+      font-family: 'Roboto', sans-serif;
+      background-color: #0000ff;
+    }
+    
+    #menu-toggle.open {
+      display: none; /* Hide when menu is open */
+    }
+    
+    #close-button.open {
+      display: block; /* Show when menu is open */
+
+    }
+
 }
