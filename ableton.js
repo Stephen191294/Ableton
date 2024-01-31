@@ -27,3 +27,8 @@ document.getElementById('close-button').addEventListener('click', function() {
   document.getElementById('menu-toggle').classList.remove('open');
   document.getElementById('close-button').classList.remove('open');
 });
+
+function playVideo() {
+  document.getElementById('video-player').src += '&autoplay=1'; // Auto play the video
+  document.getElementsByClassName('thumbnail')[0].style.display = 'none'; // Hide the thumbnail image
+}
