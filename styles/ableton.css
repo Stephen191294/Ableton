@@ -55,6 +55,13 @@ p{
   color: #0000ff;
 }
 
+
+.green-box{
+  background-color: #b6ffc0 ;
+  height: 100%;
+  width:50%;
+}
+
 .image-container{
   margin-top: 0;
   margin-left: 90px;
@@ -72,6 +79,10 @@ p{
     margin-bottom: 0;
     
   
+}
+
+.image-container-3{
+  height: 900px;
 }
 
 
@@ -491,6 +502,15 @@ color: #ff764d;
         line-height: 2.5;
         font-family: 'Roboto', sans-serif;
       
+    }
+
+    .video-container{
+      position: relative;
+      margin-top: 5%;
+     top:50%;
+     left: 15%;
+      width: 560px;
+      height: 315px;
     }
 
     .yellow-box{
