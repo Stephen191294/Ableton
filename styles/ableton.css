@@ -5,6 +5,8 @@ body{
   
 }
 
+
+
 header{
   margin-left: 25px;
   margin-right: 35px;
@@ -142,7 +144,7 @@ color: #ff764d;
 
 .overlay-container-1{
   position: absolute;
-  margin-right: 45%;
+  margin-right: 55%;
   margin-top: 5%;
   height: 80%;
 }
@@ -157,7 +159,7 @@ color: #ff764d;
 .overlay-image-1{
   z-index: 1;
   height: 100%;
-  width: 100%;
+  width: 125%;
   
 }
 
@@ -246,6 +248,14 @@ color: #ff764d;
   display: block;
 }
 
+.third-text-container{
+  margin-top: 10%;
+  margin-left: 20%;
+  margin-right: 20%;
+  display: block;
+}
+
+
 .thumbnail{
   position:absolute;
   top: 0;
@@ -253,6 +263,7 @@ color: #ff764d;
   width: 100%;
   height: 100%;
   cursor: pointer;
+  
 }
 
 .video-player{
@@ -264,11 +275,17 @@ color: #ff764d;
 .video-container{
   position: relative;
   margin-top: 5%;
-  margin-left: 25%;
+ top:50%;
+ left: 30%;
   width: 560px;
   height: 315px;
 }
 
+.video-caption{
+  font-weight: bold;
+  font-size: small;
+  font-family: 'Roboto', sans-serif;
+}
 
 .yellow-box{
   background-color: 
@@ -306,6 +323,8 @@ color: #ff764d;
     font-family: 'Roboto', sans-serif;
   }
 
+  
+  
 
 
   .first-text-container{
@@ -372,6 +391,9 @@ color: #ff764d;
     background-color: blue;
     overflow: hidden;
     transition: height 0.3s ease;
+    z-index: 2;
+    overflow-y: auto;
+    
   }
   
   .menu.open {
@@ -441,11 +463,34 @@ color: #ff764d;
     .second-slide-nav-list{
       display: flex;
       white-space: wrap;
+      
     }
     
    
     .slide-nav-logo{
       display: flex;
+    }
+
+    .slide-nav-list-item{
+      line-height: 2.5 ;
+      font-size: 1.25rem;
+    }
+
+    .slide-nav-list-item-1{
+      color: #ff764d;
+      font-size: .875rem;
+    }
+
+    .slide-nav-list-item-2{
+      line-height: 2.5;
+    }
+
+    .slide-nav-list-item-3{
+        font-size: 20px;
+        color:#fff;
+        line-height: 2.5;
+        font-family: 'Roboto', sans-serif;
+      
     }
 
     .yellow-box{

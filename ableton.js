@@ -29,6 +29,7 @@ document.getElementById('close-button').addEventListener('click', function() {
 });
 
 function playVideo() {
-  document.getElementById('video-player').src += '&autoplay=1'; // Auto play the video
-  document.getElementsByClassName('thumbnail')[0].style.display = 'none'; // Hide the thumbnail image
+  var videoPlayer = document.getElementById('video-player');
+  var videoId = '9SbnhgjeyXA'; // Replace with your YouTube video ID
+  videoPlayer.src = 'https://www.youtube.com/embed/' + videoId + '?autoplay=1';
 }
