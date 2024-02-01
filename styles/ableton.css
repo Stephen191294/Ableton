@@ -5,8 +5,6 @@ body{
   
 }
 
-
-
 header{
   margin-left: 25px;
   margin-right: 35px;
@@ -28,6 +26,23 @@ p{
 }
 
 
+.container-3-img-1{
+  position: relative;
+  height: 20%;
+  margin-top: 20% ;
+  z-index: 1;
+  
+}
+
+
+.container-3-img-2{
+  position: relative;
+  margin-top: 100px;
+  height: 20%;
+  z-index: 1;
+}
+
+
 .first-image{
   width: 100%;
 }
@@ -38,16 +53,12 @@ p{
   margin-right: 20%;
   display: block;
 }
+
 .first-text{
-  
-  display: block;
+   display: block;
   margin: 0;
   
-  
 }
-
-
-
 
 
 .first-text-link{
@@ -55,11 +66,11 @@ p{
   color: #0000ff;
 }
 
-
 .green-box{
   background-color: #b6ffc0 ;
   height: 100%;
-  width:50%;
+  width:65%;
+  margin-top: 10%;
 }
 
 .image-container{
@@ -82,8 +93,14 @@ p{
 }
 
 .image-container-3{
-  height: 900px;
-}
+  position: relative;
+  display: flex;
+  justify-content: start;
+   width: 1400px;
+    height: 1300px;
+    margin-top: 100px;
+    margin-right: 100px;
+  }
 
 
 .main-nav-button{
@@ -167,10 +184,22 @@ color: #ff764d;
   padding-left: 30%;
 }
 
-.overlay-image-1{
+.overlay-container-3{
+  position:absolute;
+  display: flex;
+  flex-direction: column;
+  margin-left: 5%;
+  margin-top: 15%;
+  height: 140%;
   z-index: 1;
+  
+  
+}
+
+.overlay-image-1{
   height: 100%;
   width: 125%;
+  z-index: 1;
   
 }
 
@@ -209,6 +238,7 @@ color: #ff764d;
 
 .slide-nav-logo{
   display: none;
+  cursor: pointer;
 }
 
 
