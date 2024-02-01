@@ -128,8 +128,22 @@ p{
     margin-top: 5%;
     margin-left: 20%;
     margin-right: 20%;
-    height: 50%;
+    height: 60%;
   }
+
+  .image-container-5{
+    position: relative;
+    display: flex;
+    margin-left: 10%;
+    margin-top: 5%;
+  top:0;
+  left:0;
+  height: 600px;
+  width: 60%;
+    
+  }
+
+ 
 
   .image-4{
     width: 100%;
@@ -236,6 +250,21 @@ color: #ff764d;
   z-index: 1;
 }
 
+.overlay-container-5{
+  position: absolute;
+  margin-top: 14%;
+  margin-right: 30%;
+  height: 100%;
+  z-index: 1;
+}
+
+.overlay-container-6{
+  position:absolute;
+  margin-left: 72%;
+  margin-top: 9%;
+  height: 80%;
+  z-index: 1;
+}
 
 .overlay-image-1{
   height: 100%;
@@ -253,6 +282,24 @@ color: #ff764d;
   height: 90%;
   z-index: 1;
   
+}
+
+.overlay-image-5-1{
+
+height: 60%;
+z-index: 1;
+}
+
+.overlay-image-5-2{
+  height: 100%;
+  z-index: 1;
+}
+
+.purple-box{
+  background-color:#d5b3ff ;
+  height: 120%;
+  width: 100%;
+  margin-left: 20%;
 }
 
 
@@ -475,6 +522,18 @@ color: #ff764d;
       margin-right: 5%;
       height: 70%;
     }
+
+    .image-container-5{
+      position: relative;
+      display: flex;
+      margin-left: 2%;
+      margin-top: 5%;
+    top:0;
+    left:0;
+    height: 550px;
+    width: 80%;
+      
+    }
   
     .image-4{
       width: 100%;
@@ -578,6 +637,23 @@ color: #ff764d;
       height: 50%;
       z-index: 1;
     }
+
+    .overlay-container-5{
+      position: absolute;
+      margin-top: 20%;
+      margin-right: 35%;
+      height: 80%;
+      z-index: 1;
+    }
+
+    .overlay-container-6{
+      position:absolute;
+      margin-left: 65%;
+      margin-top: 9%;
+      height: 80%;
+      z-index: 1;
+    }
+
     
     .overlay-image-1{
       z-index: 1;
@@ -597,6 +673,22 @@ color: #ff764d;
       
     }
 
+    .overlay-image-5-1{
+
+      height: 50%;
+      z-index: 1;
+      }
+      
+      .overlay-image-5-2{
+        height: 80%;
+        z-index: 1;
+      }
+      
+      .purple-box{
+        background-color:#d5b3ff ;
+        height: 100%;
+        margin-left: 15%;
+      }
 
     .sticky{
       display: none;
