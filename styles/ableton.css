@@ -5,6 +5,8 @@ body{
   
 }
 
+
+
 header{
   margin-left: 25px;
   margin-right: 35px;
@@ -49,8 +51,8 @@ p{
 
 .forth-text-container{
   margin-top: 10%;
-  margin-left: 20%;
-  margin-right: 20%;
+  margin-left: 10%;
+  margin-right: 10%;
   display: block;
 }
 
@@ -60,9 +62,15 @@ p{
 
 .first-text-container{
   margin-top: 10%;
-  margin-left: 20%;
-  margin-right: 20%;
+  margin-left: 10%;
+  margin-right: 10%;
   display: block;
+}
+
+.fith-text-container{
+  margin-top: 10%;
+  margin-left: 10%;
+  margin-right: 10%;
 }
 
 .first-text{
@@ -71,6 +79,9 @@ p{
   
 }
 
+.first-text-line-break{
+  display: none;
+}
 
 .first-text-link{
   text-decoration: none;
@@ -109,10 +120,20 @@ p{
   justify-content: start;
    width: 1400px;
     height: 1300px;
-    margin-top: 100px;
-    margin-right: 100px;
+    margin-top: 0;
+    margin-right: 0;
   }
 
+  .image-container-4{
+    margin-top: 5%;
+    margin-left: 20%;
+    margin-right: 20%;
+    height: 50%;
+  }
+
+  .image-4{
+    width: 100%;
+  }
 
 .main-nav-button{
   display: none;
@@ -209,10 +230,10 @@ color: #ff764d;
 
 .overlay-container-4{
   position:absolute;
-  z-index: 1;
   margin-left: 50%;
   margin-top: 25%;
   height: 50%;
+  z-index: 1;
 }
 
 
@@ -304,15 +325,15 @@ color: #ff764d;
 
 .second-text-container{
   margin-top: 10%;
-  margin-left: 20%;
-  margin-right: 20%;
+  margin-left: 10%;
+  margin-right: 10%;
   display: block;
 }
 
 .third-text-container{
   margin-top: 10%;
-  margin-left: 20%;
-  margin-right: 20%;
+  margin-left: 10%;
+  margin-right: 10%;
   display: block;
 }
 
@@ -346,6 +367,7 @@ color: #ff764d;
   font-weight: bold;
   font-size: small;
   font-family: 'Roboto', sans-serif;
+  font-style: italic;
 }
 
 .yellow-box{
@@ -371,11 +393,20 @@ color: #ff764d;
 
 @media screen and (max-width: 900px) {
     
+  body{
+    margin: 0;
+    padding: 0;
+    margin-bottom: 100%;
+    
+  }
+
   h1{
     font-size: 1.25rem;
     line-height: 1.5;
     font-family: 'Roboto', sans-serif;
   }
+
+  
 
    p{
     font-size: 1rem;
@@ -384,9 +415,12 @@ color: #ff764d;
     font-family: 'Roboto', sans-serif;
   }
 
+  .container-3-img-3{
+    position: relative;
+    height: 100%;
+    z-index: 1;
+  }
   
-  
-
 
   .first-text-container{
     margin-left:75px ;
@@ -397,19 +431,54 @@ color: #ff764d;
     display: none ;
   }
 
+  .forth-text-container{
+    margin-top: 10%;
+    margin-left: 10%;
+    margin-right: 10%;
+    display: block;
+  }
+
+  .green-box{
+    background-color: #b6ffc0 ;
+    height: 100%;
+    width:60%;
+    margin-top: 5%;
+  }
+  
 
 
   .image-container-2{
     position: relative;
     display: flex;
     justify-content: flex-end;
-     width: 800px;
+     width: 750px;
       height: 500px;
       margin-top: 100px;
       margin-right: 0;
       
     
   }
+
+  .image-container-3{
+    position: relative;
+    display: flex;
+    justify-content: start;
+     width: 750px;
+      height: 600px;
+      margin-top: 0;
+    
+    }
+
+    .image-container-4{
+      margin-top: 5%;
+      margin-left: 5%;
+      margin-right: 5%;
+      height: 70%;
+    }
+  
+    .image-4{
+      width: 100%;
+    }
 
   .logo-container{
     margin: 20px;
@@ -490,8 +559,26 @@ color: #ff764d;
       padding-left: 30%;
       margin-right: 8%;
     }
-    
 
+    .overlay-container-3{
+      position:absolute;
+      display: flex;
+      flex-direction: column;
+      margin-left: 5%;
+      margin-top: 5%;
+      height: 160%;
+      z-index: 1;
+      
+    }
+
+    .overlay-container-4{
+      position:absolute;
+      margin-left: 50%;
+      margin-top: 25%;
+      height: 50%;
+      z-index: 1;
+    }
+    
     .overlay-image-1{
       z-index: 1;
       height: 90%;
