@@ -5,8 +5,6 @@ body{
   
 }
 
-
-
 header{
   margin-left: 25px;
   margin-right: 35px;
@@ -27,7 +25,22 @@ p{
   font-family: 'Roboto', sans-serif;
 }
 
+.blue-box{
+  background-color: #b1c5ff;
+  padding: 100px;
+  white-space: wrap;
+  overflow: hidden;
+  display: block;
+  height: 60%;
+  width: 100%;
+}
 
+.blue-box-link{
+  color: #0000ff;
+  font-size: 1.87rem;
+  cursor: pointer;
+  font-family: 'Roboto', sans-serif;
+}
 .container-3-img-1{
   position: relative;
   height: 20%;
@@ -35,7 +48,6 @@ p{
   z-index: 1;
   
 }
-
 
 .container-3-img-2{
   position: relative;
@@ -64,7 +76,7 @@ p{
   margin-top: 10%;
   margin-left: 10%;
   margin-right: 10%;
-  display: block;
+  
 }
 
 .fith-text-container{
@@ -73,11 +85,7 @@ p{
   margin-right: 10%;
 }
 
-.first-text{
-   display: block;
-  margin: 0;
-  
-}
+
 
 .first-text-line-break{
   display: none;
@@ -136,15 +144,21 @@ p{
     display: flex;
     margin-left: 10%;
     margin-top: 5%;
-  top:0;
-  left:0;
-  height: 600px;
-  width: 60%;
+    height: 600px;
+    width: 60%;
     
   }
 
+  .image-container-6{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row-reverse;
+    margin-top: 10%;
+    margin-left: 15%;
+    height: 500px;
+    width: 70%;
+  }
  
-
   .image-4{
     width: 100%;
   }
@@ -329,6 +343,9 @@ z-index: 1;
   cursor: pointer;
 }
 
+.slide-close-button{
+  cursor: pointer;
+}
 
 .secondary-nav ul{
   display: flex;
@@ -374,14 +391,21 @@ z-index: 1;
   margin-top: 10%;
   margin-left: 10%;
   margin-right: 10%;
-  display: block;
+  
+}
+
+.sixth-text-container{
+  margin-top: 10%;
+  margin-left: 10%;
+  margin-right: 10%;
+  
 }
 
 .third-text-container{
   margin-top: 10%;
   margin-left: 10%;
   margin-right: 10%;
-  display: block;
+  
 }
 
 
@@ -482,7 +506,7 @@ z-index: 1;
     margin-top: 10%;
     margin-left: 10%;
     margin-right: 10%;
-    display: block;
+    
   }
 
   .green-box{
