@@ -61,6 +61,15 @@ p{
   z-index: 1;
 }
 
+.container-6-divider{
+  height: 0;
+  margin: 0;
+  padding: 0;
+  border-top: 2px solid #eee;
+  width: 100%;
+}
+
+
 .forth-text-container{
   margin-top: 10%;
   margin-left: 10%;
@@ -96,6 +105,16 @@ p{
   color: #0000ff;
 }
 
+.footer-container{
+  margin-top: 15%;
+}
+
+.footer-list-1{
+  list-style: none;
+  font-weight: 100;
+  line-height: 1.5;
+  font-family: 'Roboto', sans-serif;
+}
 .green-box{
   background-color: #b6ffc0 ;
   height: 95%;
@@ -155,6 +174,7 @@ p{
     flex-direction: row-reverse;
     margin-top: 10%;
     margin-left: 15%;
+    margin-bottom: 10%;
     height: 500px;
     width: 70%;
   }
@@ -162,6 +182,11 @@ p{
   .image-4{
     width: 100%;
   }
+
+  .logo-list{
+    list-style: none;
+  }
+
 
 .main-nav-button{
   display: none;
@@ -225,6 +250,7 @@ color: #ff764d;
   width: 100%;
   
 }
+
 
 .nav-container{
   display: flex;
@@ -347,7 +373,7 @@ z-index: 1;
   cursor: pointer;
 }
 
-.secondary-nav ul{
+.secondary-nav-1 ul{
   display: flex;
   list-style: none;
   font-size: 1rem;
@@ -363,6 +389,7 @@ z-index: 1;
 }
 
 .sticky{
+  padding-top:0 ;
   position: fixed;
   top: 0;
   width: 100%;
@@ -370,9 +397,6 @@ z-index: 1;
   z-index: 2;
 }
 
-.sticky{
-  padding-top: 0;
-}
 
 .second-slide-nav-list{
   display: none;
@@ -392,6 +416,10 @@ z-index: 1;
   margin-left: 10%;
   margin-right: 10%;
   
+}
+
+.sec-container-image-6{
+  display: none;
 }
 
 .sixth-text-container{
@@ -471,6 +499,16 @@ z-index: 1;
     
   }
 
+  .blue-box{
+    background-color: #b1c5ff;
+    padding: 100px;
+    white-space: wrap;
+    overflow: hidden;
+    display: block;
+    height: 80%;
+    width: 100%;
+  }
+
   h1{
     font-size: 1.25rem;
     line-height: 1.5;
@@ -485,6 +523,18 @@ z-index: 1;
     font-weight: normal;
     font-family: 'Roboto', sans-serif;
   }
+
+  .blue-box{
+    background-color: #b1c5ff;
+    padding: 80px;
+    white-space: wrap;
+    overflow: hidden;
+    display: block;
+    height: 100%;
+    width: 100%;
+  }
+
+
 
   .container-3-img-3{
     position: relative;
@@ -502,12 +552,18 @@ z-index: 1;
     display: none ;
   }
 
+  .first-container-image-6{
+    display: none;
+  }
+
   .forth-text-container{
     margin-top: 10%;
     margin-left: 10%;
     margin-right: 10%;
     
   }
+
+ 
 
   .green-box{
     background-color: #b6ffc0 ;
@@ -557,6 +613,17 @@ z-index: 1;
     height: 550px;
     width: 80%;
       
+    }
+
+    .image-container-6{
+      display: flex;
+      justify-content: space-between;
+      flex-direction: column-reverse;
+      margin-top: 10%;
+      margin-left: 8%;
+      margin-bottom: 10%;
+      height: 670px;
+      width: 476px;
     }
   
     .image-4{
@@ -730,6 +797,10 @@ z-index: 1;
       
     }
     
+    .sec-container-image-6{
+      display: flex;
+      width: 636px;
+    }
    
     .slide-nav-logo{
       display: flex;
