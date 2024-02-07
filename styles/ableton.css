@@ -1,7 +1,7 @@
 body{
   margin: 0;
   padding: 0;
-  margin-bottom: 10%;
+  margin-bottom: 0;
   
 }
 
@@ -131,6 +131,14 @@ p{
 
 .footer-container{
   margin-top: 5%;
+  
+}
+
+.footer-container-1{
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  
 }
 
 .footer-container-2{
@@ -146,6 +154,7 @@ p{
 .footer-container-2-list{
   list-style: none;
   line-height: 1.5;
+  padding: 0;
   font-family: 'Roboto', sans-serif;
 }
 
@@ -155,12 +164,19 @@ p{
   list-style: none;
   margin-left: 80px;
   font-family: 'Roboto', sans-serif;
+  margin-top: 5%;
+}
+
+.footer-list-container{
+  margin-top: 5% ;
 }
 
 .footer-list-1{
   list-style: none;
   font-weight: 100;
   line-height: 1.5;
+  font-size: 16px;
+  padding: 0;
   font-family: 'Roboto', sans-serif;
 }
 .footer-list-2{
@@ -168,6 +184,7 @@ p{
   font-weight: 100;
   line-height: 1.5;
   font-family: 'Roboto', sans-serif;
+  margin-left: 5%;
 }
 
 .footer-list-3{
@@ -261,17 +278,17 @@ p{
     width: 100%;
   }
 
-.list-logo{
-  display: flex;
-  justify-content: space-between;
-
-}
 
 .logo-list{
   margin-top: 5px;
   margin-left: 5px;
 }
 
+.logo-list-container{
+  display: flex;
+  margin-left: 0%;
+  
+}
 
 .main-nav-button{
   display: none;
@@ -508,7 +525,7 @@ z-index: 1;
 }
 
 .sixth-text-container{
-  margin-top: 10%;
+  margin-top: 15%;
   margin-left: 10%;
   margin-right: 10%;
   
@@ -580,9 +597,10 @@ z-index: 1;
   body{
     margin: 0;
     padding: 0;
-    margin-bottom: 100%;
+    
     
   }
+ 
 
   .blue-box{
     background-color: #b1c5ff;
@@ -641,7 +659,50 @@ z-index: 1;
     
   }
 
- 
+  .footer-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  
+  .footer-container-2{
+    display: flex;
+    flex-direction: column;
+  }
+
+  .footer-container-3{
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px;
+  }
+
+  .footer-list-2{
+    padding-left: 0px;
+    margin-left: 0;
+    margin-top: 5px;
+    font-weight: 100;
+  }
+
+  .footer-list-3{
+    padding: 0;
+    
+  }
+
+  .footer-link-container{
+    display: flex;
+    flex-direction: column;
+    margin-top: 5px;
+  }
+  .footer-link{
+    margin-top: 5px;
+  }
+  .footer-container-3-list{
+    margin-left: 0;
+  }
+
+  .footer-logo-2{
+    margin-top: 80px;
+  }
 
   .green-box{
     background-color: #b6ffc0 ;
@@ -713,6 +774,11 @@ z-index: 1;
     margin-top: 25px;
     margin-left: 35px;
     display: flex;
+  }
+
+  .list-logo{
+  width: 100px;
+    margin-left: 0;
   }
 
   .logo-container{
