@@ -44,7 +44,6 @@ select{
 .blue-box{
   background-color: #b1c5ff;
   padding: 100px;
-  white-space: wrap;
   overflow: hidden;
   display: block;
   height: 60%;
@@ -215,6 +214,31 @@ select{
   height: 22px;
   font-family: 'Roboto', sans-serif;
 }
+.footer-link-con-1{
+  text-decoration: none;
+  color: black;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 100;
+}
+.footer-link-con-2{
+  text-decoration: none;
+  color: black;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 100;
+}
+.footer-link{
+  text-decoration: none;
+  color: black;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 100;
+}
+.footer-link-list-2{
+  text-decoration: none;
+  color: black;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 100;
+}
+
 .green-box{
   background-color: #b6ffc0 ;
   height: 95%;
@@ -244,7 +268,6 @@ select{
 .image-container-3{
   position: relative;
   display: flex;
-  justify-content: start;
    width: 1400px;
     height: 1300px;
     margin-top: 0;
@@ -291,7 +314,7 @@ select{
 
 .logo-list-container{
   display: flex;
-  margin-left: 0%;
+  margin-left: 0;
   
 }
 
@@ -628,16 +651,6 @@ z-index: 1;
     
   }
  
-  .blue-box{
-    background-color: #b1c5ff;
-    padding: 100px;
-    white-space: wrap;
-    overflow: hidden;
-    display: block;
-    height: 80%;
-    width: 100%;
-  }
-
 
    p{
     font-size: 1rem;
@@ -649,7 +662,6 @@ z-index: 1;
   .blue-box{
     background-color: #b1c5ff;
     padding: 80px;
-    white-space: wrap;
     overflow: hidden;
     display: block;
     height: 100%;
@@ -703,7 +715,7 @@ z-index: 1;
   }
 
   .footer-list-2{
-    padding-left: 0px;
+    padding-left: 0;
     margin-left: 0;
     margin-top: 5px;
     font-weight: 100;
@@ -754,7 +766,6 @@ z-index: 1;
   .image-container-3{
     position: relative;
     display: flex;
-    justify-content: start;
      width: 750px;
       height: 600px;
       margin-top: 0;
@@ -963,7 +974,7 @@ z-index: 1;
 
     .second-slide-nav-list{
       display: flex;
-      white-space: wrap;
+      
       
     }
     
@@ -984,6 +995,7 @@ z-index: 1;
     .slide-nav-list-item-1{
       color: #ff764d;
       font-size: .875rem;
+      text-decoration: none;
     }
 
     .slide-nav-list-item-2{
@@ -1037,9 +1049,4 @@ z-index: 1;
 
    
    
-    
-   
-
-
-
 }
